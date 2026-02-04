@@ -252,13 +252,13 @@ export function ResumeStep({ onBack }: ResumeStepProps) {
 
       {/* Navigation and Submit Buttons */}
       <div className="flex gap-3">
-        <Button onClick={onBack} variant="outline" className="w-full bg-transparent">
+        <Button onClick={onBack} variant="outline" className="flex-1 bg-transparent">
           Back
         </Button>
         <Button
           onClick={handleSubmit}
           disabled={!resumeFile || isSubmitting}
-          className="w-full"
+          className="flex-1"
         >
           {isSubmitting ? (
             <>

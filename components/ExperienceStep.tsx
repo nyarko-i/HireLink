@@ -325,10 +325,10 @@ export function ExperienceStep({ onNext, onBack }: ExperienceStepProps) {
 
       {/* Navigation Buttons */}
       <div className="flex gap-3">
-        <Button onClick={onBack} variant="outline" className="w-full bg-transparent">
+        <Button onClick={onBack} variant="outline" className="flex-1 bg-transparent">
           Back
         </Button>
-        <Button onClick={handleNext} className="w-full">
+        <Button onClick={handleNext} className="flex-1">
           Next: Upload Resume
         </Button>
       </div>
